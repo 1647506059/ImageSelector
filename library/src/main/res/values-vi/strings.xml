@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_title" translatable="false">Hình ảnh</string>
+    <string name="nav_confirm" translatable="false">Xác định</string>
+    <string name="nav_all_image" translatable="false">Tất cả ảnh</string>
+    <string name="nav_all_sheet" translatable="false">Tổng%d</string>
+</resources>

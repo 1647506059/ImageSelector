@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_title" translatable="false">صور : .</string>
+    <string name="nav_confirm" translatable="false">أكّد</string>
+    <string name="nav_all_image" translatable="false">جميع الصور</string>
+    <string name="nav_all_sheet" translatable="false">مجموع d%</string>>
+</resources>

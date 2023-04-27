@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_title" translatable="false">写真</string>
+    <string name="nav_confirm" translatable="false">を選択して、</string>
+    <string name="nav_all_image" translatable="false">すべての画像</string>
+    <string name="nav_all_sheet" translatable="false">合計%d枚</string>>
+</resources>

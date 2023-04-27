@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_title" translatable="false">Foto</string>
+    <string name="nav_confirm" translatable="false">determinar</string>
+    <string name="nav_all_image" translatable="false">Todas as imagens</string>
+    <string name="nav_all_sheet" translatable="false">Total de %d folhas</string>>
+</resources>

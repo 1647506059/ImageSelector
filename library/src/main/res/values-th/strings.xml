@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_title" translatable="false">รูปภาพ</string>
+    <string name="nav_confirm" translatable="false">ระบุ</string>
+    <string name="nav_all_image" translatable="false">รูปภาพทั้งหมด</string>
+    <string name="nav_all_sheet" translatable="false">รวม %d แผ่น</string>
+</resources>

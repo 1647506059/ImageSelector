@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_title" translatable="false">照片</string>
+    <string name="nav_confirm" translatable="false">確定</string>
+    <string name="nav_all_image" translatable="false">所有圖片</string>
+    <string name="nav_all_sheet" translatable="false">共%d張</string>
+</resources>
