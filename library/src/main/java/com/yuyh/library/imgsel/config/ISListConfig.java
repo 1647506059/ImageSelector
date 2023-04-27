@@ -3,6 +3,8 @@ package com.yuyh.library.imgsel.config;
 import android.graphics.Color;
 import android.os.Environment;
 
+import com.yuyh.library.imgsel.ISNav;
+import com.yuyh.library.imgsel.R;
 import com.yuyh.library.imgsel.common.ImageLoader;
 import com.yuyh.library.imgsel.utils.FileUtils;
 
@@ -139,16 +141,20 @@ public class ISListConfig implements Serializable {
                 filePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Camera";
             else
                 filePath = Environment.getRootDirectory().getAbsolutePath() + "/Camera";
+        
+            String mTitle = ISNav.getInstance().getContext().getString(R.string.nav_title);
+            String mOk = ISNav.getInstance().getContext().getString(R.string.nav_confirm);
+            String mAllImage = ISNav.getInstance().getContext().getString(R.string.nav_all_image);
 
-            title = "照片";
+            title = mTitle;//"照片";
             titleBgColor = Color.parseColor("#3F51B5");
             titleColor = Color.WHITE;
 
-            btnText = "确定";
+            btnText = mOk;//"确定";
             btnBgColor = Color.TRANSPARENT;
             btnTextColor = Color.WHITE;
 
-            allImagesText = "所有图片";
+            allImagesText = mAllImage;//"所有图片";
 
             FileUtils.createDir(filePath);
         }

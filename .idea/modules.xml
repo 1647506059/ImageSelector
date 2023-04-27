@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ImageSelector.iml" filepath="$PROJECT_DIR$/ImageSelector.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ImageSelector/app" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" group="ImageSelector/library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageSelector.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageSelector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ImageSelector.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ImageSelector.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ImageSelector.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ImageSelector.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ImageSelector.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ImageSelector.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ImageSelector.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ImageSelector.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/ImageSelector.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/ImageSelector.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/ImageSelector.library.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/ImageSelector.library.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/ImageSelector.library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/library/ImageSelector.library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/ImageSelector.library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/ImageSelector.library.unitTest.iml" />
     </modules>
   </component>
 </project>

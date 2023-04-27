@@ -1,5 +1,6 @@
 package com.yuyh.library.imgsel.adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.View;
 import android.widget.ImageView;
@@ -34,18 +35,19 @@ public class FolderListAdapter extends EasyLVAdapter<Folder> {
         this.config = config;
     }
 
+    @SuppressLint("StringFormatInvalid")
     @Override
     public void convert(EasyLVHolder holder, final int position, Folder folder) {
         if (position == 0) {
-            holder.setText(R.id.tvFolderName, "所有图片")
-                    .setText(R.id.tvImageNum, "共" + getTotalImageSize() + "张");
+            holder.setText(R.id.tvFolderName, context.getString(R.string.nav_all_image))
+                    .setText(R.id.tvImageNum, context.getString(R.string.nav_all_sheet, getTotalImageSize()));
             ImageView ivFolder = holder.getView(R.id.ivFolder);
             if (folderList.size() > 0) {
                 ISNav.getInstance().displayImage(context, folder.cover.path, ivFolder);
             }
         } else {
             holder.setText(R.id.tvFolderName, folder.name)
-                    .setText(R.id.tvImageNum, "共" + folder.images.size() + "张");
+                    .setText(R.id.tvImageNum, context.getString(R.string.nav_all_sheet, folder.images.size()));
             ImageView ivFolder = holder.getView(R.id.ivFolder);
             if (folderList.size() > 0) {
                 ISNav.getInstance().displayImage(context, folder.cover.path, ivFolder);

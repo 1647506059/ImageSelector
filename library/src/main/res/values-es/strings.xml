@@ -19,4 +19,9 @@
 
     <string name="permission_camera_denied">Camera permission denied</string>
 
+    <string name="nav_title" translatable="false">Photo</string>
+    <string name="nav_confirm" translatable="false">OK</string>
+    <string name="nav_all_image" translatable="false">All Pictures</string>
+    <string name="nav_all_sheet" translatable="false">Total of %d sheets</string>>
+
 </resources>

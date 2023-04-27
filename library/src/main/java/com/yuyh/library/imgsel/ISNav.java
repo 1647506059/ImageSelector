@@ -1,6 +1,7 @@
 package com.yuyh.library.imgsel;
 
 import android.app.Activity;
+import android.app.Application;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -22,6 +23,7 @@ public class ISNav {
     private static ISNav instance;
 
     private ImageLoader loader;
+    private Context context;
 
     public static ISNav getInstance() {
         if (instance == null) {
@@ -32,6 +34,10 @@ public class ISNav {
             }
         }
         return instance;
+    }
+
+    public Context getContext() {
+        return context;
     }
 
     /**
@@ -45,6 +51,7 @@ public class ISNav {
 
     public void displayImage(Context context, String path, ImageView imageView) {
         if (loader != null) {
+            context = context;
             loader.displayImage(context, path, imageView);
         }
     }
